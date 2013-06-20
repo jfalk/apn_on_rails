@@ -19,14 +19,14 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency('configatron')
-  s.add_runtime_dependency('activerecord')
-  s.add_runtime_dependency('actionpack')
+  s.add_runtime_dependency('activerecord', '~> 4.0.0.rc2')
+  s.add_runtime_dependency('actionpack', '~> 4.0.0.rc2')
 
   s.add_development_dependency('rake')
   s.add_development_dependency('autotest')
   s.add_development_dependency('sqlite3')
   s.add_development_dependency('rspec')
   s.add_development_dependency('bundler')
-  s.add_development_dependency('rcov')
+  s.add_development_dependency('simplecov')
 end
 
